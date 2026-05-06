@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أبطال الشهر | Kings OSM</title>
+    <style>
+        body {
+            background: #080808; color: white; text-align: center;
+            font-family: 'Segoe UI', sans-serif; margin: 0; padding: 20px;
+        }
+        .header-title {
+            color: #00f2fe; font-size: 28px; text-shadow: 0 0 15px #00f2fe;
+            margin-bottom: 40px; font-weight: bold;
+        }
+        .month-grid {
+            display: grid; gap: 20px; max-width: 400px; margin: 0 auto;
+        }
+        .month-card {
+            background: #111; border: 1px solid #222; border-radius: 20px;
+            padding: 25px; position: relative; transition: 0.4s;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        /* كارت بطل الشهر الحالي بتوهج خاص */
+        .featured {
+            border: 2px solid #00f2fe;
+            box-shadow: 0 0 20px rgba(0, 242, 254, 0.2);
+            transform: scale(1.05);
+        }
+        .month-name {
+            display: block; color: #888; font-size: 14px;
+            margin-bottom: 10px; font-weight: bold;
+        }
+        .hero-name {
+            display: block; font-size: 24px; font-weight: bold;
+            color: #fff; text-shadow: 0 0 10px rgba(255,255,255,0.3);
+        }
+        .trophy-count {
+            display: inline-block; margin-top: 15px;
+            background: linear-gradient(90deg, #00f2fe, #4facfe);
+            color: #000; padding: 5px 15px; border-radius: 50px;
+            font-weight: bold; font-size: 14px;
+        }
+        .back-link {
+            display: inline-block; margin-top: 50px; color: #00f2fe;
+            text-decoration: none; font-size: 14px; opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="header-title">🌟 قمة مدربي الشهر</h1>
+
+    <div class="month-grid">
+        <div class="month-card featured">
+            <span class="month-name">أبريل 2026</span>
+            <span class="hero-name">👑 محمد علاء</span>
+            <div class="trophy-count">🏆 5 بطولات</div>
+        </div>
+
+        <div class="month-card" style="opacity: 0.4;">
+            <span class="month-name">مايو 2026</span>
+            <span class="hero-name">جاري التحديد...</span>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-link">🔙 العودة للرئيسية</a>
+
+</body>
+</html>
